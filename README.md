@@ -1,5 +1,4 @@
-# SteamRecsProject
-Final Project for Stat208
+# Recommender Systems Applied to Steam Network Data
 
 A recommender system is a model that seeks to predict the preferences a user would give to a collection of items. Today recommender systems form the basis of the targeted advertisements and product suggestions we see throughout commercial industry. Broadly speaking, recommender systems fall into three major classes: content-based filtering, collaborative filtering, and novel hybrid methods. Content-based filtering involves creating "profiles" of different classes of items and recommending users items that fall into the same or similar profiles to items they have already rated. Menawhile, collaborative filtering involves identifying similar users based upon known common ratings, then recommending items to a target user based on what other similar users have rated highly. 
 
