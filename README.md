@@ -13,10 +13,12 @@ The "Notebooks" folder contains three iPython notebooks. "Project Overview" expl
 
 The "Code" folder contains two python files that have the code I used to process the BYU data. Unfortunately I am unable to upload the original data files since they exceed the maximum file size allowed by Github. However, one could get them by downloading the .sql from the BYU site, splitting it, and locating the files containing the the Games_1 table. "text_parsing.py" has the code for parsing the raw .txt data from the BYU source and is similar to what is described in the "Project Overview" notebook. "joining_sampling.py" has the code for sampling the data and combining it into one large numpy array for the rest of the analysis.
 
-## Additional Reading
+## Additional Reading/ Resources
 
 [1] "Matrix Factorization Techniques for Recommender Systems" by Bell, Koren, Volinsky (2009)
 
 [2] "Recommender Systems: The Textbook" by Aggarwal (2016)
 
+[3] "Building a Recommendation System in TensorFlow: Overview" (Google cloud article, [link](https://cloud.google.com/solutions/machine-learning/recommendation-system-tensorflow-overview))
 
+[4] "Collaborative Filtering" (Google Machine Learning course, [link](https://developers.google.com/machine-learning/recommendation/collaborative/basics))
