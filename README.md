@@ -11,7 +11,7 @@ For this project I will implementing a latent factor collaborative filtering mod
 
 The "Notebooks" folder contains three iPython notebooks. "Project Overview" explains how I processed the BYU data and explains the math behind Latent Factor recommendation system models and how we can train them using a method known as alternating least squares. "Data Exploration" contains some basic exploratory data analysis of the data. "Tuning and Evaluation" contains our implementation, tuning, and testing of this model using PySpark. I recommend reading them in this order: "Project Overview" --> "Data Exploration" --> "Tuning and Evaluation"
 
-The "Code" folder contains two python files that have the code I used to process the BYU data. Unfortunately I am unable to upload the original data files since they exceed the maximum file size allowed by Github. However, one could get them by downloading the .sql from the BYU site, splitting it, and locating the files containing the the Games_1 table.
+The "Code" folder contains two python files that have the code I used to process the BYU data. Unfortunately I am unable to upload the original data files since they exceed the maximum file size allowed by Github. However, one could get them by downloading the .sql from the BYU site, splitting it, and locating the files containing the the Games_1 table. "text_parsing.py" has the code for parsing the raw .txt data from the BYU source and is similar to what is described in the "Project Overview" notebook. "joining_sampling.py" has the code for sampling the data and combining it into one large numpy array for the rest of the analysis.
 
 ## Additional Reading
 
